@@ -1,0 +1,134 @@
+.xxx {
+	width:100%;
+}
+.zztuku {
+	width:260px;;
+}
+P {
+	PADDING-BOTTOM: 0px;
+	FONT-STYLE: normal;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	FONT-SIZE: 12px;
+	PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px;
+	FONT-STYLE: normal;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	FONT-SIZE: 12px;
+	PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px;
+	FONT-STYLE: normal;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	FONT-SIZE: 12px;
+	PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px;
+	FONT-STYLE: normal;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	FONT-SIZE: 12px;
+	PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px;
+	FONT-STYLE: normal;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	FONT-SIZE: 12px;
+	PADDING-TOP: 0px
+}
+I {
+	PADDING-BOTTOM: 0px;
+	FONT-STYLE: normal;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	FONT-SIZE: 12px;
+	PADDING-TOP: 0px
+}
+IMG {
+	BORDER-BOTTOM-STYLE: none;
+	BORDER-LEFT-STYLE: none;
+	BORDER-TOP-STYLE: none;
+	BORDER-RIGHT-STYLE: none
+}
+.n {
+	DISPLAY: none
+}
+.aL {
+	DISPLAY: inline;
+	WIDTH: 260px;
+}
+.f I {
+	DISPLAY: inline;
+	FLOAT: left
+}
+.p {
+	LINE-HEIGHT: 24px;
+	COLOR: #9f9e9e
+}
+.f H6 {
+	LINE-HEIGHT: 30px;
+	PADDING-LEFT: 10px;
+	BACKGROUND: url(../images/titleA.png) #0ea3da no-repeat;
+	HEIGHT: 30px;
+	COLOR: #fff;
+	FONT-SIZE: 14px;
+	OVERFLOW: hidden;
+	_line-height: 32px
+}
+.f P {
+	TEXT-ALIGN: left;
+	LINE-HEIGHT: 30px;
+	HEIGHT: 30px;
+	padding: 0px 5px;
+}
+.f P A {
+	COLOR: #09719f;
+	FONT-SIZE: 12px;
+	text-decoration: none;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.f P A:hover {
+	COLOR: #09719f
+}
+.f DL {
+	POSITION: relative
+}
+.f DT {
+	Z-INDEX: 99;
+	POSITION: absolute;
+	RIGHT: 2px;
+	TOP: 150px
+}
+.f I {
+	TEXT-ALIGN: center;
+	LINE-HEIGHT: 16px;
+	BACKGROUND-COLOR: #676767;
+	WIDTH: 16px;
+	FONT-FAMILY: Arial;
+	HEIGHT: 16px;
+	COLOR: #fff;
+	CURSOR: pointer;
+	MARGIN-RIGHT: 4px
+}
+.f .c {
+	BACKGROUND-COLOR: #c8241d;
+	COLOR: #fff;
+	FONT-WEIGHT: bold;
+}

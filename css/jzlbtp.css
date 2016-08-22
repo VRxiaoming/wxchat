@@ -1,0 +1,78 @@
+#rollcon2 ul.listcon2 li img {
+	width: 72px;
+	height: 108px;
+	border: #99c1d3 solid 1px;
+	display: block;
+	margin: 0px auto;
+}
+
+.list_box2 {
+	float: left;
+	height: 130px;
+	width: 500px;
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	margin-left: 18px;
+	margin-right: 18px;
+	top: 18px;
+}
+
+.list_box2 li {
+	float: left;
+}
+
+#rollcon2 ul.listcon2 {
+	height: 130px;
+	overflow: hidden;
+	position: relative;
+	list-style: none;
+	margin: 0px;
+}
+
+#rollcon2 ul.listcon2 li {
+	list-style: none;
+	float: left;
+	width: 100px;
+	height: 130px;
+	display: inline;
+	position: relative;
+}
+
+#rollcon2 ul.listcon2 li p {
+	width: 100px;
+	text-align: center;
+	line-height: 20px;
+	color: black;
+	margin-top: 1px;
+}
+
+#rollcon2 ul li a {
+	display: block;
+	width: 97px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #fff;
+	background-color: #c69c55;
+	margin-top: 8px;
+}
+
+#rollcon2 ul li a:HOVER {
+	text-decoration: none;
+	background-color: #b0853b;
+}
+.ksback,.ksnext{
+	width: 20px;
+	height: 60px;
+	float: left;
+	cursor: pointer;
+	margin-top: 45px;
+}
+.ksback{
+	background: url(../img/lbprev.png);
+	margin-left: 28px;
+}
+.ksnext{
+	background: url(../img/lbnext.png);
+}

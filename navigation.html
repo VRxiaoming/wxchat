@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<title>Navigation </title>
+		<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<link href="css/englishstyle.css" rel="stylesheet">
+		<script src="js/front.js" type="text/javascript"></script>
+		<script src="js/banner.js"></script>
+		<link href="css/banner.css" rel="stylesheet">
+		<!-- 新闻轮播 -->
+		<link rel="stylesheet" type="text/css" href="css/newstyles4.css">
+		<script type="text/javascript" src="js/jq142.js"></script>
+		<script type="text/javascript" src="js/2011home_cm.js"></script>
+
+		<!-- vedio -->
+		<script src="js/jquery.jplayer280.js" type="text/javascript"></script>
+		<script src="js/vedio280.js" type="text/javascript"></script>
+		<link href="css/jplayer.blue.monday280.css" rel="stylesheet" type="text/css">
+		<!-- vedio -->
+
+		<script src="js/rolljs.js"></script>
+		<link href="css/jzlbtp.css" rel="stylesheet">
+		<style type="text/css">
+			.display {
+				display: none;
+			}
+		</style>
+
+		<script type="text/javascript">
+			function pmt(id) {
+
+				$('[id^=pmtcolor_]').removeClass('broudcolor');
+				$('#pmtcolor1').removeClass("broudcolor");
+				$('#pmtcolor_' + id).addClass("broudcolor");
+
+				$('#pmtid').addClass("display");
+				$('#pmtid2').removeClass("display");
+				$('[id^=lou_]').addClass('display');
+				$('#lou_' + id).removeClass("display");
+			}
+
+			function pmtu2() {
+
+				$('[id^=pmtcolor_]').removeClass('broudcolor');
+				$('#pmtcolor1').addClass("broudcolor");
+				$('#pmtid').removeClass("display");
+				$('#pmtid2').addClass("display");
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class="bodyall">
+			<div class="eheader">
+				<div style="float: left;"><img src="img/eheadimg.jpg"></div>
+				<div class="elang">
+					<a>Chinese</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a >English</a>
+				</div>
+				<div class="eheadermulu">
+					<a href="index.html"><span>Home</span></a>
+					<a href="overview.html"><span>Overview</span></a>
+					<a href="patientcare.html"><span>Patient Care</span></a>
+					<a href="research.html"><span>Research</span></a>
+					<a href="intelCop.html" style="width:200px;"><span style="width:200px;">International Cooperation</span></a>
+				</div>
+			</div>
+
+			<div class="ebody">
+				<div class="" style="margin: 10px auto; font-family: 微软雅黑;">
+					<img style="width: 950px;height: auto;" src="img/overviewBanner.png">
+				</div>
+				<script type="text/javascript" src="js/overviewmenu.js"></script>
+
+				<div class="eleftmulu">
+
+					<a id="zygwdh314" href="overview.html">About Us</a>
+					
+					<a id="zygwdh317" href="navigation.html" class="current">Navigation</a>
+					
+				</div>
+				<div class="erightnr">
+					<div class="erighttop">Home / Overview / Navigation</div>
+					<div class="emain article">
+						<h2>Hospital Navigation</h2>
+						<div class="bulidlist">
+
+							<!-- <a>Building 1</a>
+						<a>Building 2</a>
+						<a>Building 3</a>
+						<a>Building 5</a>
+						<a>Building 6</a>
+						<a>Building 7</a>
+						<a>Building 9</a>
+						<a>Building 10</a>
+						<a>Building 12</a>
+						<a class="toomore">Sinple Building</a>
+						<a class="toomore">Tube-shaped apartment</a> -->
+						</div>
+						<!-- <img src="/r/cms/www/zygw/img/english/ditudaohang.jpg"> -->
+
+						<div class="" id="pmtid" style="margin-left: 10px; margin-bottom: 8px;">
+							<img id="body_fore" src="img/floor.png" usemap="#male_fore" alt="症状自检" class="male_fore">
+							<!-- onclick="haha('GETMOUSEPOSINPIC',this)" -->
+							<input type="hidden" id="az" value="">
+							<!--usemap="#male_fore"  -->
+							<map name="male_fore" id="male_fore" class="male_fore">
+					<area shape="poly" coords="178,197,212,232,212,232,213,241,199,235,175,247,176,265,137,229,137,217,174,198" title="10号楼" alt="" href="javascript:void();" onclick="pmt(953)">
+					<area shape="poly" coords="269,291,270,300,297,312,297,324,301,325,311,322,311,297,285,282,271,288" title="11号楼" alt="11号楼" href="javascript:void();" onclick="pmt(954)">
+					<area shape="poly" coords="244,216,314,270,326,266,324,243,335,238,350,241,371,227,369,216,347,199,345,162,338,156,339,108,296,73,283,82,279,101,277,143,270,150,268,187,246,209,244,216" title="6号楼" alt="" href="javascript:void();" onclick="pmt(949)">
+					<area shape="poly" coords="386,271,402,267,399,244,382,232,369,238,378,247,385,255,383,271" title="12号楼" alt="" href="javascript:void();" onclick="pmt(955)">
+					<area shape="poly" coords="393,137,410,129,408,108,396,99,374,115,388,121,390,135" title="7号楼" alt="" href="javascript:void();" onclick="pmt(950)">
+					<area shape="poly" coords="427,127,421,136,392,136,366,123,358,132,359,162,367,168,367,183,383,190,390,208,402,215,421,216,441,229,459,222,458,204,441,187,472,167,467,145,451,134,437,144,433,132,430,128" title="5号楼" alt="" href="javascript:void();" onclick="pmt(948)">
+					<area shape="poly" coords="543,10,527,0,515,9,531,21,541,12" title="9号楼" alt="" href="javascript:void();" onclick="pmt(951)">
+					<area shape="poly" coords="456,141,473,141,473,180,476,180,476,168,508,168,508,204,485,204,485,200,455,200" title="8号楼" alt="" href="javascript:void();" onclick="pmt(951)">
+					<area shape="poly" coords="583,125,616,95,615,60,609,59,558,20,550,17,536,23,551,30,554,108,581,125" title="1号楼" alt="" href="javascript:void();" onclick="pmt(942)">
+					<area shape="poly" coords="541,142,548,133,552,124,553,110,551,31,505,5,502,1,493,1,476,10,470,26,468,97,538,140" title="2号楼" alt="" href="javascript:void();" onclick="pmt(945)">
+					<area shape="poly" coords="470,161,500,179,523,167,519,147,522,142,474,107,464,106,461,108,461,108,456,121,454,132,469,147,471,159" title="3号楼" alt="" href="javascript:void();" onclick="pmt(946)">
+				</map>
+						</div>
+						<div class="display" id="pmtid2">
+
+							<h2>not available at present！</h2>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="efooter">
+				<div style="float: left;"><img src="img/efootimg.jpg"></div>
+				<div class="efootright">
+					<div class="efootmulu">
+						<a >Home</a>|
+						<a href="overview.html">Overview</a>|
+						<a href="patientcare.html">Patient Care</a>|
+						<a href="research.html">Research</a>|
+						<a >Web Managerment</a>
+					</div>
+					<div class="efooternr">
+						网站故障联系电话：(0571)87236648&nbsp;&nbsp; 浙ICP备05058494号&nbsp;&nbsp; 设计制作：杭州卓健信息科技有限公司&nbsp;
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
